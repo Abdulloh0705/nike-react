@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.all{
+  background-color: #3E8989;
+ 
+}
+.go_all{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img_img{
+  background-color: black;
+}
+.go_link{
+  text-decoration: none;
+  list-style: none;
+  margin: 0 30px;
+  color: aliceblue;
+}
+.go_list{
+  display: flex;
+}
+.nav_logo{
+justify-content: start;
+}
+.search{
+  justify-content: flex-end;
+}
+.nav_logo1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.all2{
+  background-image: url('../../../public/pic.png');
+  height: 800px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.esse{
+ text-align: center;
+}
+.title{
+  color: aliceblue;
+
+}
+.text{
+  color: aliceblue;
+  margin: 20px 0px 50px 0px;
+}
+.more{
+  padding: 14px 77px 14px 77px;
+  background-color: #B4436C;
+  color: aliceblue;
+  border-radius: 30px;
+}
